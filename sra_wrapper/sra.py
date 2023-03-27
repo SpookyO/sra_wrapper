@@ -1,6 +1,6 @@
 import attrs
 import requests
-
+from typing import Union
 
 class CustomException(Exception):
     pass
@@ -177,19 +177,19 @@ class PokemonResponse:
 
     name: str
     id: int
-    type: list | None
-    species: list | None
-    abilities: list | None
+    type: list or None
+    species: list or None
+    abilities: list or None
     height: str
     weight: str
-    base_experience: int | None
+    base_experience: int or None
     gender: list
-    egg_groups: list | None
+    egg_groups: list or None
     stats: StatsPokemon = attrs.field(converter=SA().create_stats)
     family: FamilyPokemon = attrs.field(converter=SA().create_family)
     sprites: SpritesPokemon = attrs.field(converter=SA().create_sprites)
-    description: str | None
-    generation: int | None
+    description: str or None
+    generation: int or None
 
 
 @attrs.define(kw_only=True)
@@ -211,7 +211,7 @@ class LyricsResponse:
     lyrics: str
     title: str
     author: str
-    thumbnail: str | None
+    thumbnail: str or None
 
 
 @attrs.define(kw_only=True)
