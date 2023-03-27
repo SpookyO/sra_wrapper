@@ -273,7 +273,8 @@ class SRA:
     @staticmethod
     def check_error(response):
         """
-        Checks error while trying to request to the API
+        Checks error while trying to request to the API.
+
         Raises
         -------
         NoResponse
@@ -314,7 +315,8 @@ class SRA:
 
     def get_dog_info(self):
         """
-        Gets random dog infos. E.g: facts, image
+        Gets random dog infos. E.g: facts, image.
+
         Returns
         -------
         AnimalResponse
@@ -326,7 +328,8 @@ class SRA:
 
     def get_cat_info(self):
         """
-        Gets random cat info. E.g: facts and image
+        Gets random cat info. E.g: facts and image.
+
         Returns
         --------
         AnimalResponse
@@ -338,7 +341,8 @@ class SRA:
 
     def get_pat_anime(self):
         """
-        Gets pat gifs from /animu endpoint
+        Gets pat gifs from /animu endpoint.
+
         Returns
         -------
         str
@@ -351,9 +355,10 @@ class SRA:
 
     def get_quote_anime(self):
         """
-        Gets quotes of anime characters from /animu endpoint
+        Gets quotes of anime characters from /animu endpoint.
+
         Returns
-        -------
+        --------
         AnimuQuoteResponse
           The quote response from the API
         """
@@ -364,7 +369,8 @@ class SRA:
 
     def get_wink_anime(self):
         """
-        Gets wink gifs from /animu endpoint
+        Gets wink gifs from /animu endpoint.
+
         Returns
         -------
         str
@@ -377,7 +383,8 @@ class SRA:
 
     def create_nobitches(self, text: str):
         """
-        Creates no-bitches image from the API
+        Creates no-bitches image from the API.
+
         Parameters
         ----------
         text: str
@@ -394,7 +401,8 @@ class SRA:
 
     def create_oogway(self, quote: str):
         """
-        Creates oogway quote image from the API
+        Creates oogway quote image from the API.
+
         Parameters
         ----------
         quote: str
@@ -411,7 +419,8 @@ class SRA:
 
     def create_oogway2(self, quote: str):
         """
-        Creates oogway but with different image from the API
+        Creates oogway but with different image from the API.
+
         Parameters
         ----------
         quote: str
@@ -430,7 +439,8 @@ class SRA:
 
     def get_dictionary(self, word: str):
         """
-        Gets a word's definitions from the API
+        Gets a word's definitions from the API.
+
         Parameters
         ----------
         word: str
@@ -447,7 +457,8 @@ class SRA:
 
     def get_joke(self):
         """
-        Gets random joke from the API
+        Gets random joke from the API.
+
         Returns
         -------
         str
@@ -460,7 +471,8 @@ class SRA:
 
     def get_pokemon_info(self, pokemon: str):
         """
-        Fetches specific pokemon info from the API
+        Fetches specific pokemon info from the API.
+        
         Returns
         -------
         PokemonResponse
