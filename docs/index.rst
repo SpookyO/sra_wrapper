@@ -17,5 +17,5 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`py-modindex`
+* :ref:`modules`
 * :ref:`search`
