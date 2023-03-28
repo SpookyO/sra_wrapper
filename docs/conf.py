@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.abspath('..'))
 project = 'sra_wrapper'
 copyright = '2023, SpookyO'
 author = 'SpookyO'
-release = '0.1'
+release = '1.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
